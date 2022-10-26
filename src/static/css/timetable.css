@@ -1,0 +1,129 @@
+.title_table {
+    color: #333333;
+    margin-left: 30px !important;
+
+    font-family: 'Raleway' !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    
+}
+
+.table_card {
+    position: relative;
+    margin: 0 !important;
+    top: 72px;
+    width: 100%;
+    border-radius: 20px !important;
+    padding: 0;
+    margin-bottom: 40px !important;
+}
+
+.select {
+    position: absolute !important;
+    right: 0;
+    margin-right: 40px !important;
+}
+
+.select .MuiInputBase-formControl {
+    border-radius: 20px;
+    color: white;
+    background-color: #071B1F;
+}
+
+.select svg {
+    color: white;
+}
+
+.select .MuiSelect-select {
+    padding: 5px 15px;
+}
+
+.divider {
+    width: 100% !important;
+    margin: 20px 0 !important;
+    border-color: black !important;
+}
+
+.time-paper {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px !important;
+
+    font-family: 'Raleway' !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+}
+
+.time-stack .MuiPaper-rounded {
+    padding: 10px;
+}
+
+.time-stack {
+    width: 100%;
+}
+
+.time-divider {
+    margin: 10px 0 !important;
+    border-color: black !important;
+}
+
+.subject-item {
+    margin-top: 10px !important;
+}
+
+.subject {
+    padding: 10px 20px;
+    width: 80%;
+    height: 60px;
+
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sbj-title {
+    font-family: 'Raleway' !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+}
+
+.sbj-subtitle {
+    font-family: 'Raleway' !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+}
+
+.upload {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.upload .MuiButton-contained {
+    border-radius: 12px;
+    background-color: black;
+}
+
+.upload .MuiButton-contained:hover {
+    background-color: black;
+}
+
+.upload .MuiIconButton-root {
+    color: black;
+}
+
+@media (max-width: 599px) {
+    .select {
+        margin-left: 30px !important;
+        margin-right: 0 !important;
+        position: relative;
+        left: 0;
+        top: 40px
+    }
+
+    .divider {
+        margin-top: 60px !important;
+    }
+}

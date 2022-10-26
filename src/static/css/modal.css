@@ -1,0 +1,72 @@
+.add_modal {
+    position: fixed !important;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal_content {
+    overflow-y: initial !important
+}
+
+.modal_radio_item {
+    margin-top: 30px !important;
+}
+
+.modal_loading {
+    position: fixed;
+    top: calc(50% - 20px + 36px);
+    left: calc(50% - 20px);
+}
+
+.modal_error {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 999;
+}
+
+.modal_card {
+    position: absolute;
+    margin: 0;
+    height: 90%;
+    top: 5%;
+    border-radius: 20px !important;
+}
+
+.modal_form_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.modal_card .MuiFormControl-root {
+    width: 60% !important;
+}
+
+.modal_inputs {
+    margin-top: 10px;
+    left: calc(50% - 60% / 2);
+}
+
+.modal_inp_button {
+    width: 200px;
+    height: 40px;
+    left: calc(50% - 200px / 2);
+    margin: 40px 0 !important;
+    border-radius: 25px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal_inp_button:active {
+    transform: scale(0.9);
+}
+.photo_button {
+    margin-top: 10px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}

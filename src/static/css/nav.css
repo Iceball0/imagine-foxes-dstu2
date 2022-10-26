@@ -1,0 +1,82 @@
+body {
+    background-color: #071B1F;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.bar {
+    position: fixed;
+    padding: 2px 0;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0.29) !important;
+    color: white !important;
+}
+
+.toolbar {
+    height: 100%;
+}
+
+.avatar {
+    margin-right: 8px;
+}
+
+.title {
+    flex-grow: 1;
+    white-space: nowrap;
+    font-family: 'Raleway' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 25px !important;
+}
+
+.title.mobile {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+
+    font-family: 'Raleway' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 25px !important;
+}
+
+.tabs {
+    color: white !important;
+    width: 140px !important;
+}
+
+.tabs_menu {
+    color: white !important;
+}
+
+.menu {
+    width: 250px;
+    color: white !important;
+    margin-top: 5px;
+}
+
+.menuButton {
+    color: white !important;
+}
+
+.verticTab .MuiTabs-indicator {
+    background-color: white !important;
+    width: 4px;
+}
+
+.verticTab {
+    margin-right: 32px;
+    border: 0 !important;
+}
+
+.horizTab .MuiTabs-indicator {
+    background-color: white !important
+}
+
+.MuiDrawer-paper {
+    background-color: rgba(0, 0, 0, 0.29) !important;
+}

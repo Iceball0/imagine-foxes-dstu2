@@ -1,0 +1,86 @@
+.bg, .bg2 {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+    display: block;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../images/login-bg.jpg");
+}
+
+.bg2 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.radio_item {
+    margin-top: 30px !important;
+}
+
+.loading {
+    position: fixed;
+    top: calc(50% - 20px + 36px);
+    left: calc(50% - 20px);
+}
+
+.error {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 999;
+}
+
+.card {
+    position: absolute;
+    margin: 0;
+    top: 72px;
+    margin-top: 25px;
+    border-radius: 20px !important;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    z-index: 5;
+}   
+
+.form_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.card .MuiFormControl-root {
+    width: 60% !important;
+}
+
+.inputs {
+    margin-top: 20px;
+    left: calc(50% - 60% / 2);
+}
+
+.inp_button {
+    width: 200px;
+    height: 40px;
+    left: calc(50% - 200px / 2);
+    margin: 40px 0 !important;
+    border-radius: 25px !important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.inp_button:active {
+    transform: scale(0.9);
+}
